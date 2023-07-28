@@ -1,4 +1,29 @@
-* {
-    background: darkslategray;
+body {
+    background: #111213;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.align-center-text {
+    text-align: center; 
+}
+
+a {
+    color: aqua;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: 10px;
+}
+
+div {
+    padding-right: 50px;
+    padding-left: 50px;
 }
