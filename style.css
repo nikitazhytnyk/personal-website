@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     background: #111213;
     color: white;
@@ -12,12 +16,14 @@ body {
 .header-test {
     font-size: 18px;
     list-style: none;
-    display: flex;
+    display: inline-flex;
 }
 
 .description {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
+    margin-top: -100px;
+
 }
 
 li {
@@ -30,7 +36,6 @@ li {
     margin: 20px auto;
     width: 1300px;
     padding: 40px;
-    border: 2px solid #FFFFFF;
     text-align: center;
 }
 
@@ -62,6 +67,6 @@ a {
 
 img {
     width: 1050px;
-    border: 2px solid #FFFFFF;
+    border-right: 20px double #FFFFFF;
     margin: 40px;
 }
