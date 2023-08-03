@@ -13,12 +13,33 @@ body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;    
 }
 
-div.first-
+div.hero {
+    border: 2px solid rgba(255, 255, 255, 0.2);  
+    width: 1000px;
+    margin: 180px auto;
+    margin-bottom: 400px;
+    padding: 10px;
+}
 
-.description {
-    text-align: center;
-    font-size: 22px;
-    margin-top: -100px;
+h1.big-heading {
+    font-size: 16px; 
+    margin: 0 0 40px 5px;   
+}
+
+h2.big-heading {
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+h3.big-heading {
+    font-size: 80px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+p.big-heading {
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 li {
@@ -26,24 +47,13 @@ li {
     padding-left: 10px;
 }
 
-.home-page-card  {
-    background: #181818;
-    margin: 20px auto;
-    width: 1300px;
-    padding: 40px;
-    text-align: center;
-}
-
-p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 a {
     color: aqua;
 }
 
-img.gif-anime {
-    width: 1050px;
-    margin: 40px;
+.gif-anime img {
+    width: 850px;
+    margin: auto;
+    display: block;
 }
+
