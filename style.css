@@ -65,7 +65,8 @@ a {
 }
 
 div.social {
-    margin: -680px 0 0 0;
+    position: fixed;
+    margin: -660px 0 0 0;
     display: block;
 }
 
