@@ -10,7 +10,7 @@ html {
 body {
     background: #18191b;
     color: white;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: Calibri, Arial, sans-serif;    
 }
 
 div.big-heading {
@@ -46,22 +46,34 @@ p.big-heading {
     width: 580px;
     margin-top: 20px;
     line-height: 26px; 
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.65);
 }
 
-li {
-    margin: 10px;
-    padding-left: 10px;
+div.about-me-main {
+    border: 2px solid rgba(255, 255, 255, 0.2);  
+    width: 1000px;
+    margin: 200px auto;
+    margin-bottom: 400px;
+    padding: 10px;
 }
 
-a {
-    color: aqua;
+div.about-me {
+    display: inline-block;
 }
 
-.gif-anime img {
-    width: 850px;
-    margin: auto;
-    display: block;
+h2.about-me {
+    font-size: 32px;
+    margin: 10px 0 40px 0;
+}
+
+p.about-me {
+    margin-bottom: 15px;
+    line-height: 26px; 
+    color: rgba(255, 255, 255, 0.65);
+}
+
+img.about-me {
+    display: inline-block;
 }
 
 div.social {
@@ -72,4 +84,14 @@ div.social {
 
 li.social {
     list-style: none;
+}
+
+.gif-anime img {
+    width: 850px;
+    margin: auto;
+    display: block;
+}
+
+a {
+    color: aqua;
 }
