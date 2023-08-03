@@ -13,6 +13,8 @@ body {
     font-family: Calibri, Arial, sans-serif;    
 }
 
+/*--------------- Big-heading ---------------*/
+
 div.big-heading {
     border: 2px solid rgba(255, 255, 255, 0.2);  
     width: 1000px;
@@ -49,6 +51,8 @@ p.big-heading {
     color: rgba(255, 255, 255, 0.65);
 }
 
+/*--------------- About me ---------------*/
+
 div.about-me-main {
     border: 2px solid rgba(255, 255, 255, 0.2);  
     width: 1000px;
@@ -76,6 +80,8 @@ img.about-me {
     display: inline-block;
 }
 
+/*--------------- Social media ---------------*/
+
 div.social {
     position: fixed;
     margin: -630px 0 0 0;
@@ -85,6 +91,8 @@ div.social {
 li.social {
     list-style: none;
 }
+
+/*--------------- Else ---------------*/
 
 .gif-anime img {
     width: 850px;
