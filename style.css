@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 html {
@@ -14,10 +14,26 @@ body {
     font-family: Calibri, Arial, sans-serif;    
 }
 
+/*--------------- Social media ---------------*/
+
+div.social {
+    margin-top: -200px;
+    position: fixed;
+}
+
+ul.social {
+    display: flex;
+    flex-direction: column;
+}
+
+li.social {
+    list-style: none;
+    flex: 1;
+}
+
 /*--------------- Big-heading ---------------*/
 
 div.big-heading {
-    border: 2px solid rgba(255, 255, 255, 0.2);  
     width: 1000px;
     margin: 200px auto;
     margin-bottom: 400px;
@@ -55,7 +71,6 @@ p.big-heading {
 /*--------------- About me ---------------*/
 
 div.about-me-main {
-    border: 2px solid rgba(255, 255, 255, 0.2);  
     width: 900px;
     margin: 200px auto;
     margin-bottom: 400px;
@@ -109,18 +124,6 @@ img.about-me-photo {
     display: flex;
     width: 350px;
     padding: 100px 10px;
-}
-
-/*--------------- Social media ---------------*/
-
-div.social {
-    position: fixed;
-    margin: -630px 0 0 0;
-    display: block;
-}
-
-li.social {
-    list-style: none;
 }
 
 /*--------------- Else ---------------*/
