@@ -20,8 +20,9 @@ body {
     align-items: start;
     justify-content: space-between;
     min-height: 100%;
-    padding: 0 80px 0;
-    gap: 5px;
+    margin: 0 80px 0;
+    padding: 0 100px 0;
+    gap: 15px;
 }
 
 a {
@@ -56,6 +57,28 @@ header {
     flex: 1;
 }
 
+.my-name {
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+.job-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+
+header p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 16px;
+}
+
+.header-links {
+    font-size: 16px;
+    font-weight: 800;
+}
 /*================ MAIN ================*/
 
 main {
