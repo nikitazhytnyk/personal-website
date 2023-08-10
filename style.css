@@ -30,6 +30,14 @@ a {
     color: white;
 }
 
+a:hover {
+    color: red;
+}
+
+p {
+    line-height: 1.6;
+}
+
 /*================ HEADER ================*/
 
 header {
@@ -39,22 +47,11 @@ header {
     flex: 0 0 50%;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     padding: 80px 0;
 }
 
 .header-container {
     flex: 0 0 auto;
-}
-
-.header-links {
-    display: flex;
-    flex-direction: column;
-    margin: 60px 60px 0 0;
-}
-
-.social {
-    flex: 1;
 }
 
 .my-name {
@@ -69,16 +66,31 @@ header {
     margin-top: 13px;
 }
 
+.header-links {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 0 0;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header-links a {
+    display: flex;
+    flex: 0;
+    padding: 16px 0;
+}
+
+.social {
+    align-self: flex-start;
+}
+
 header p {
     font-size: 16px;
     font-weight: 200;
     margin-top: 16px;
 }
 
-.header-links {
-    font-size: 16px;
-    font-weight: 800;
-}
 /*================ MAIN ================*/
 
 main {
