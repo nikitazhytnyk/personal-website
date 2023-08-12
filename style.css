@@ -188,6 +188,22 @@ p {
 
     header {
         position: relative;
+        flex: 1;
+        justify-content: start;
+        height: auto;
+    }
+
+    .header-container {
+        padding: 48px 0 0 0;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .social {
+        padding: 0;
+        padding-top: 16px;
     }
 
     .project {
