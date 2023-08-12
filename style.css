@@ -133,6 +133,7 @@ main {
 }
 
 .project img {
+    flex: 1 1 auto;
     height: 100px;
     border-radius: 10px;
     margin-right: 16px;
@@ -182,9 +183,24 @@ p {
 @media all and (max-width: 640px) {
     .wrapper {
         flex-direction: column;
+        max-width: 90%;
     }
 
     header {
         position: relative;
+    }
+
+    .project {
+        flex-direction: column-reverse;
+    }
+
+    .project img {
+        flex: 1 1 150px;
+        align-self: start;
+    }
+
+    .project p {
+        padding: p;
+        margin-bottom: 16px;
     }
 }
