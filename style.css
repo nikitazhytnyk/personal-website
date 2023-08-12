@@ -38,6 +38,7 @@ video {
     gap: 15px;  
 }
 
+
 /*================ HEADER ================*/
 
 header {
@@ -135,4 +136,14 @@ p {
 
 .mb-96px {
     margin-bottom: 96px;
+}
+
+@media all and (max-width: 680px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    header {
+        position: relative;
+    }
 }
