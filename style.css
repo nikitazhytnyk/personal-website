@@ -110,9 +110,22 @@ main {
 
     }
 
-main p {
-    display: block;
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px; 
 }
+
+.skill {
+    line-height: 1.5;
+}
+
+.skill ul {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
 
 /*======================================*/
 
@@ -138,7 +151,7 @@ p {
     margin-bottom: 96px;
 }
 
-@media all and (max-width: 680px) {
+@media all and (max-width: 640px) {
     .wrapper {
         flex-direction: column;
     }
