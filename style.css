@@ -55,10 +55,23 @@ header {
     flex: 0 0 auto;
     padding-top: 96px;
 }
+.photo-name {
+    display: flex;
+}
+
+.headshot {
+    align-self: center;
+    height: 96px;
+    border-radius: 100%;
+}
 
 .my-name {
-    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 45px;
     font-weight: 800;
+    padding-left: 16px;
 
 }
 
