@@ -167,6 +167,25 @@ main {
     border-radius: 15px;
 }
 
+.hobby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby img {
+    flex: 0 1 auto;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.hobby a {
+    font-size: 16px;
+    font-weight: 400;
+    align-self: center;
+}
+
 /*======================================*/
 
 a {
