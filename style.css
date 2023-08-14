@@ -215,7 +215,7 @@ li {
     margin-bottom: 96px;
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 1020px) {
     .wrapper {
         flex-direction: column;
         max-width: 90%;
