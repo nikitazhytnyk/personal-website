@@ -194,7 +194,8 @@ a {
     transition: .3s;
 }
 
-a:hover {
+a:hover,
+a.active {
     color: red;
 }
 
@@ -215,6 +216,8 @@ li {
 .mb-96px {
     margin-bottom: 96px;
 }
+
+/*================ SMALLER SCREEN ================*/
 
 @media all and (max-width: 1020px) {
     .wrapper {
