@@ -123,6 +123,7 @@ main {
     }
 
 .skills {
+    scroll-margin-top: 96px;
     display: flex;
     flex-wrap: wrap;
     gap: 60px; 
@@ -135,6 +136,10 @@ main {
 .skill ul {
     padding-top: 16px;
     padding-left: 16px;
+}
+
+.projects {
+    scroll-margin-top: 96px;    
 }
 
 .project {
@@ -165,6 +170,10 @@ main {
 .project:hover {
     background: rgba(128, 128, 128, 0.527);
     border-radius: 15px;
+}
+
+.hobbies {
+    scroll-margin-top: 96px;
 }
 
 .hobby {
