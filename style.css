@@ -130,6 +130,9 @@ main {
 
     }
 
+/*========================*/
+
+
 .skills {
     scroll-margin-top: 96px;
     display: flex;
@@ -146,6 +149,8 @@ main {
     padding-left: 16px;
 }
 
+/*========================*/
+
 .projects {
     scroll-margin-top: 96px;    
 }
@@ -154,12 +159,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 .project img {
     flex: 1 1 auto;
-    width: 150px;
+    height: 80px;
     border-radius: 10px;
     margin-right: 16px;
 }
@@ -175,10 +179,7 @@ main {
     font-size: 14px;
 }
 
-.project:hover {
-    background: rgba(255, 255, 255, 0.150);
-    border-radius: 15px;
-}
+/*========================*/
 
 .hobbies {
     scroll-margin-top: 96px;
@@ -187,14 +188,15 @@ main {
 .hobby {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .hobby img {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     height: 90px;
     border-radius: 10px;
     margin-right: 16px;
+    
 }
 
 .hobby a {
@@ -204,6 +206,16 @@ main {
 }
 
 /*======================================*/
+
+.container {
+    padding: 15px;
+}
+
+.container:hover {
+    background: rgba(255, 255, 255, 0.150);
+    border-radius: 8px;
+    transition: .15s;
+}
 
 a {
     font-weight: 400;
@@ -229,11 +241,15 @@ li {
 }
 
 .mb-16px {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+.mb-48px {
+    margin-bottom: 3rem;
 }
 
 .mb-96px {
-    margin-bottom: 96px;
+    margin-bottom: 6rem;
 }
 
 /*================ SMALLER SCREEN ================*/
