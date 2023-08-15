@@ -38,7 +38,6 @@ video {
     gap: 15px;  
 }
 
-
 /*================ HEADER ================*/
 
 header {
@@ -55,6 +54,7 @@ header {
     flex: 0 0 auto;
     padding-top: 96px;
 }
+
 .photo-name {
     display: flex;
 }
@@ -93,6 +93,14 @@ nav a {
     display: flex;
     flex: 0 1 auto;
     padding: 16px 0;
+    color:rgb(150, 150, 150);
+    font-weight: 800;
+}
+
+a.active {
+    color: rgb(254, 254, 254);
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .social {
@@ -168,7 +176,7 @@ main {
 }
 
 .project:hover {
-    background: rgba(128, 128, 128, 0.527);
+    background: rgba(255, 255, 255, 0.150);
     border-radius: 15px;
 }
 
@@ -198,20 +206,22 @@ main {
 /*======================================*/
 
 a {
+    font-weight: 400;
     text-decoration: none;
     color: white;
     transition: .3s;
 }
 
-a:hover,
-a.active {
+a:hover {
     color: red;
+    
 }
 
 p {
     font-weight: 200;
     font-size: 16px;
     line-height: 1.5;
+    color:  rgb(150, 150, 150)
 }
 
 li {
