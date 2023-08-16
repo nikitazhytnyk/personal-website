@@ -29,13 +29,17 @@ video {
 }
 
 .wrapper {
-    flex: 0 1 auto;
+    flex: 100  auto;
     display: flex;
     align-items: start;
     justify-content: space-between;
     min-height: 100%;
-    max-width: 75%;
     gap: 15px;  
+}
+
+.flex-placeholder-left,
+.flex-placeholder-right {
+    flex: 1 1 35%;
 }
 
 /*================ HEADER ================*/
@@ -230,8 +234,9 @@ a:hover {
 p {
     font-weight: 200;
     font-size: 16px;
-    line-height: 1.5;
-    color:  rgb(150, 150, 150)
+    line-height: 1.6;
+    color:  rgb(150, 150, 150);
+    
 }
 
 li {
@@ -253,9 +258,15 @@ li {
 /*================ SMALLER SCREEN ================*/
 
 @media all and (max-width: 1020px) {
+    
     .wrapper {
         flex-direction: column;
         max-width: 90%;
+    }
+
+    .flex-placeholder-left,
+    .flex-placeholder-right {
+        display: none;
     }
 
     header {
