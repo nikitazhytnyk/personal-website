@@ -35,7 +35,7 @@ video {
 }
 
 .wrapper {
-    background: rgba(15, 15, 15, 0.8);
+    background: rgba(21, 21, 21, 0.8);
 
     flex: 100  auto;
     display: flex;
@@ -71,7 +71,7 @@ header {
     padding-top: 96px;
 }
 
-.photo-name {
+/* .photo-name {
     display: flex;
 }
 
@@ -79,7 +79,7 @@ header {
     align-self: center;
     height: 96px;
     border-radius: 100%;
-}
+} */
 
 .my-name {
     display: flex;
@@ -149,6 +149,62 @@ main {
 .about {
     scroll-margin-top: 96px;
 }
+
+/*========================*/
+
+.experience {
+    scroll-margin-top: 96px;
+    display: flex;
+    gap: 25px;
+
+}
+
+.job-period {
+    margin-top: 2px;
+}
+
+/* .job-period p:first-child {
+    margin-bottom: 5px;
+} */
+
+.job-period p {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Gill Sans';
+}
+
+.experience-info {
+    flex: 0 1 70%;
+}
+
+.experience-job-title {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.experience-description {
+    font-size: 14px;
+}
+
+.experience-skills ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-skills li {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 8px;
+    margin: 0 7px 7px 0;
+    color:rgb(255, 207, 255);
+    background: rgb(54, 0, 146);
+    border-radius: 15px;
+}
+
+
+/*========================*/
 
 .skills {
     scroll-margin-top: 96px;
@@ -252,11 +308,10 @@ a:hover {
 }
 
 p {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.6;
-    color:  rgb(150, 150, 150);
-    
+    color:  rgb(180, 180, 180);
 }
 
 li {
@@ -307,6 +362,10 @@ li {
     .social {
         padding: 0;
         padding-top: 16px;
+    }
+
+    .experience {
+        flex-direction: column;
     }
 
     .skill {
