@@ -10,7 +10,7 @@ html {
 
 body {
     color: rgb(150, 150, 150);
-    font-family: sans-serif; 
+    font-family: sans-serif, 'Courier New', Courier; 
     display: flex;
     justify-content: center;
 }
@@ -170,7 +170,7 @@ main {
 .job-period p {
     font-weight: 500;
     font-size: 14px;
-    font-family: 'Gill Sans';
+    font-family: 'Gill Sans', 'Courier New', Courier;
 }
 
 .experience-info {
