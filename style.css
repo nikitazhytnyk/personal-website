@@ -217,6 +217,12 @@ main {
     line-height: 1.5;
 }
 
+.skill p {
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 500;
+}
+
 .skill ul {
     padding-top: 16px;
     padding-left: 16px;
