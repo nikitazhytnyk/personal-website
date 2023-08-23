@@ -136,6 +136,13 @@ header p {
     margin-top: 1rem;
 }
 
+/*================ FOOTER ================*/
+
+footer p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+
 /*================ MAIN ================*/
 
 main {
@@ -286,11 +293,6 @@ main {
     font-size: 16px;
     font-weight: 400;
     align-self: center;
-}
-
-footer p {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.4);
 }
 
 /*======================================*/
