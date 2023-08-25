@@ -127,11 +127,11 @@ section .section-name {
     display: none;
 }
 
-.about,
-.experience,
-.skills,
-.project
-.hobbies {
+#about,
+#experience,
+#skills,
+#projects,
+#hobbies {
     scroll-margin-top: 96px;
 }
 
@@ -190,7 +190,6 @@ li {
     background: rgb(54, 0, 146);
     border-radius: 15px;
 }
-
 
 /*========================*/
 
