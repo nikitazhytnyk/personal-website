@@ -9,9 +9,10 @@ html {
 }
 
 body {
-    background-color: rgb(30, 30, 30);
-    color: rgb(150, 150, 150);
-    font-family: sans-serif, 'Courier New', Courier; 
+    background-color: #101026;
+    color: rgb(170, 170, 170);
+
+    font-family: sans-serif;; 
     display: flex;
     justify-content: center;
 }
@@ -77,13 +78,13 @@ nav a {
     display: flex;
     flex: 0 1 auto;
     padding: 16px 0;
-    color:rgb(150, 150, 150);
-    font-weight: 800;
+    color: #9593bf9b;
+    font-weight: 600;
 }
 
 a.active {
-    color: rgb(254, 254, 254);
-    font-weight: 800;
+    color: white;
+    font-weight: 700;
     font-size: 18px;
 }
 
@@ -108,7 +109,7 @@ header p {
 
 footer p {
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.4);
+    color: #9593bf9b;
 }
 
 /*================ MAIN ================*/
@@ -118,10 +119,56 @@ main {
     flex: 0 1 50%; 
     flex-direction: column;
     padding: 96px 0;
-
     }
 
 /*=============== GLOBAL ===============*/
+
+h3 {
+    color: gainsboro;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+a:hover {
+    color: #371BF2;
+    
+}
+
+p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    color:  #9593BF;
+}
+
+li {
+    font-weight: 200;
+    font-size: 16px;
+    color:  #9593BF;
+}
+
+.container {
+    padding: 15px;
+    margin-left: -15px;
+}
+
+.container:hover {
+    background: #2D2C59;
+    border-radius: 8px;
+    transition: .15s;
+}
 
 section .section-name {
     display: none;
@@ -133,40 +180,6 @@ section .section-name {
 #projects,
 #hobbies {
     scroll-margin-top: 96px;
-}
-
-.container {
-    padding: 15px;
-    margin-left: -15px;
-}
-
-.container:hover {
-    background: rgba(255, 255, 255, 0.523);
-    border-radius: 8px;
-    transition: .15s;
-}
-
-a {
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
-    transition: .3s;
-}
-
-a:hover {
-    color: red;
-    
-}
-
-p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.6;
-    color:  rgb(180, 180, 180);
-}
-
-li {
-    font-weight: 200;
 }
 
 /*========================*/
@@ -186,8 +199,8 @@ li {
     font-weight: 400;
     padding: 5px 8px;
     margin: 0 7px 7px 0;
-    color:rgb(255, 207, 255);
-    background: rgb(54, 0, 146);
+    color: #f0e9ff;
+    background: #725EF2;
     border-radius: 15px;
 }
 
