@@ -16,18 +16,7 @@ body {
     justify-content: center;
 }
 
-/* video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
 .wrapper {
-    /* backdrop-filter: blur(5px); */
-
     flex: 100  auto;
     display: flex;
     align-items: start;
@@ -61,16 +50,6 @@ header {
     flex: 0 0 auto;
     padding-top: 96px;
 }
-
-/* .photo-name {
-    display: flex;
-}
-
-.headshot {
-    align-self: center;
-    height: 96px;
-    border-radius: 100%;
-} */
 
 .my-name {
     display: flex;
@@ -142,152 +121,18 @@ main {
 
     }
 
-/*========================*/
-
-.about {
-    scroll-margin-top: 96px;
-}
-
-/*========================*/
-
-.experience {
-    scroll-margin-top: 96px;
-
-}
-
-.job-period {
-    margin-top: 2px;
-}
-
-/* .job-period p:first-child {
-    margin-bottom: 5px;
-} */
-
-.job-period p {
-    font-weight: 500;
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Courier New', Courier;
-}
-
-.experience-info {
-    flex: 0 1 70%;
-}
-
-.experience-job-title {
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-}
-
-.experience-description {
-    font-size: 14px;
-}
-
-.experience-skills ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.experience-skills li {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 5px 8px;
-    margin: 0 7px 7px 0;
-    color:rgb(255, 207, 255);
-    background: rgb(54, 0, 146);
-    border-radius: 15px;
-}
-
-
-/*========================*/
-
-.skills {
-    scroll-margin-top: 96px;
-   
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px; 
-}
-
-.skill {
-    line-height: 1.5;
-}
-
-.skill p {
-    font-size: 16px;
-    color: aliceblue;
-    font-weight: 500;
-}
-
-.skill ul {
-    padding-top: 16px;
-    padding-left: 16px;
-}
-
-/*========================*/
-
-.projects {
-    scroll-margin-top: 96px;    
-}
-
-.project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project img {
-    flex: 1 1 auto;
-    height: 80px;
-    border-radius: 10px;
-    margin-right: 16px;
-}
-
-.project h3 {
-    color: aliceblue;
-    margin-bottom: 14px;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.project p {
-    font-size: 14px;
-}
-
-/*========================*/
-
-.hobbies {
-    scroll-margin-top: 96px;
-}
-
-.hobby {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.hobby img {
-    flex: 1 1 auto;
-    height: 90px;
-    border-radius: 10px;
-    margin-right: 16px;
-    
-}
-
-.hobby a {
-    font-size: 16px;
-    font-weight: 400;
-    align-self: center;
-}
-
-/*======================================*/
+/*=============== GLOBAL ===============*/
 
 section .section-name {
     display: none;
+}
+
+.about,
+.experience,
+.skills,
+.project
+.hobbies {
+    scroll-margin-top: 96px;
 }
 
 .container {
@@ -323,6 +168,75 @@ p {
 li {
     font-weight: 200;
 }
+
+/*========================*/
+
+.experience-info {
+    flex: 0 1 70%;
+}
+
+.experience-info ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-info li {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 8px;
+    margin: 0 7px 7px 0;
+    color:rgb(255, 207, 255);
+    background: rgb(54, 0, 146);
+    border-radius: 15px;
+}
+
+
+/*========================*/
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; 
+}
+
+.skill ul {
+    padding-top: 16px;
+    padding-left: 16px;
+    line-height: 1.5;
+}
+
+/*========================*/
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    flex: 1 1 auto;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+/*========================*/
+
+.hobby {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hobby img {
+    flex: 1 1 auto;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+/*================ MARGIN CLASSES ================*/
 
 .mb-16px {
     margin-bottom: 1rem;
