@@ -326,12 +326,18 @@ section .section-name {
     }
 
     .project img {
-        flex: 1 1 150px;
+        width: 300px;
+        flex: 1 1 auto;
         align-self: start;
+        margin-top: 16px;
     }
 
     .project p {
         padding: p;
         margin-bottom: 16px;
+    }
+
+    section h3 {
+        font-size: 18px;
     }
 }
