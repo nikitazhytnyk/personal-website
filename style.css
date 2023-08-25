@@ -159,6 +159,12 @@ li {
     color:  #9593BF;
 }
 
+img {
+    border: 2.5px solid #9593BF;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
 .container {
     padding: 15px;
     margin-left: -15px;
@@ -182,26 +188,26 @@ section .section-name {
     scroll-margin-top: 96px;
 }
 
-/*========================*/
-
-.experience-info {
-    flex: 0 1 70%;
-}
-
-.experience-info ul{
+.list-of-skills {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.experience-info li {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 5px 8px;
+.list-of-skills li {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px 7px;
     margin: 0 7px 7px 0;
     color: #f0e9ff;
-    background: #725EF2;
+    background: #5f4bdc71;
     border-radius: 15px;
+}
+
+/*========================*/
+
+.experience-info {
+    flex: 0 1 70%;
 }
 
 /*========================*/
@@ -223,14 +229,17 @@ section .section-name {
 .project {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.project div:first-child {
+    display: flex;
 }
 
 .project img {
-    flex: 1 1 auto;
-    height: 80px;
-    border-radius: 10px;
-    margin-right: 16px;
+    width: 140px;
+    flex: 0 1 auto;
+    align-self: flex-start;
+    
 }
 
 /*========================*/
