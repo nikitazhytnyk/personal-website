@@ -285,12 +285,16 @@ section .section-name {
         display: none;
     }
 
-    section h3 {
+    section .section-name {
         display: block;
-        font-size: 14px;
+        font-size: 16px;
         color: white;
         padding-bottom: 16px;
-        font-weight: 600;
+        font-weight: 400;
+    }
+
+    section h3 {
+        font-size: 17px;
     }
 
     header {
@@ -335,9 +339,5 @@ section .section-name {
     .project p {
         padding: p;
         margin-bottom: 16px;
-    }
-
-    section h3 {
-        font-size: 18px;
     }
 }
