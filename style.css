@@ -110,6 +110,8 @@ header p {
 footer p {
     font-size: 0.9rem;
     color: #9593bf9b;
+
+    margin-bottom: 0;
 }
 
 /*================ MAIN ================*/
@@ -123,15 +125,16 @@ main {
 
 /*=============== GLOBAL ===============*/
 
+section {
+    margin-bottom: 96px;
+}
+
 h3 {
     color: gainsboro;
     font-weight: 400;
     font-size: 18px;
-}
 
-.container p {
-    font-size: 14px;
-    font-weight: 200;
+    margin-bottom: 16px;
 }
 
 a {
@@ -151,6 +154,8 @@ p {
     font-size: 16px;
     line-height: 1.6;
     color:  #9593BF;
+
+    margin-bottom: 16px;
 }
 
 li {
@@ -159,15 +164,15 @@ li {
     color:  #9593BF;
 }
 
-section img {
-    border: 2.5px solid #9593BF;
-    border-radius: 10px;
-    margin-right: 16px;
-}
-
 .container {
     padding: 15px;
     margin-left: -15px;
+    margin-bottom: 24px;
+}
+
+.container p {
+    font-size: 14px;
+    font-weight: 200;
 }
 
 .container:hover {
@@ -180,6 +185,12 @@ section .section-name {
     display: none;
 }
 
+section img {
+    border: 2.5px solid #9593BF;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
 #about,
 #experience,
 #skills,
@@ -187,6 +198,8 @@ section .section-name {
 #hobbies {
     scroll-margin-top: 96px;
 }
+
+
 
 .list-of-skills {
     list-style: none;
@@ -219,7 +232,6 @@ section .section-name {
 }
 
 .skill ul {
-    padding-top: 16px;
     padding-left: 16px;
     line-height: 1.5;
 }
@@ -255,20 +267,6 @@ section .section-name {
     height: 90px;
     border-radius: 10px;
     margin-right: 16px;
-}
-
-/*================ MARGIN CLASSES ================*/
-
-.mb-16px {
-    margin-bottom: 1rem;
-}
-
-.mb-48px {
-    margin-bottom: 3rem;
-}
-
-.mb-96px {
-    margin-bottom: 6rem;
 }
 
 /*================ SMALLER SCREEN ================*/
